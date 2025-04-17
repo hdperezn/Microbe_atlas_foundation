@@ -1,0 +1,48 @@
+# Ignore all datasets and outputs
+data/
+*.jsonl
+*.json
+*.npz
+*.csv
+*.pkl
+*.npy
+*.log
+*.pt
+*.bin
+*.ckpt
+
+# Checkpoint folders
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+
+
+# Ignore folders
+preprosses_data/
+MetaFormer/
+level_97/OTUs_model
+
+# Ignore specific files
+level_97/samples-otus.97.metag.minfilter
+level_97/samples-otus.97.metag.minfilter.gz
+level_97/otus.97.allinfo
+dowloaded_from_projects.tsv
+
+otus.99.allinfo
+sample_DRS000196_DRR000345_taxa.tsv
+
+sample_ERS1048808_ERR1233441_taxa.tsv
+samples-otus.97.metag.minfilter
+samples-otus.97.metag.minfilter.gz
+samples-otus.99.mapped
+samples-otus.99.mapped.gz
+samples-otus.99.metag.minfilter
+samples-otus.99.metag.minfilter.gz
+samples.info
+samples.info.latlon.parsed
+taxon_90_7756-96_56064-97_72428_samples.tsv
+test_input.txt
+
+# Hidden system files
+.DS_Store
+.env
