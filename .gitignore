@@ -19,7 +19,6 @@ __pycache__/
 
 # Ignore folders
 preprosses_data/
-MetaFormer/
 level_97/OTUs_model
 
 # Ignore specific files
@@ -27,6 +26,12 @@ level_97/samples-otus.97.metag.minfilter
 level_97/samples-otus.97.metag.minfilter.gz
 level_97/otus.97.allinfo
 dowloaded_from_projects.tsv
+MetaFormer/__pycache__
+MetaFormer/my_taxonomy_model_augmentation_50epochs
+MetaFormer/my_taxonomy_model_no_augmentation_50epochs
+MetaFormer/my_taxonomy_model_no_augmentation_50epochs_no_randon_replace
+MetaFormer/my_taxonomy_model_no_augmentation_with_metrics
+MetaFormer/taxonomy_token_dictionary.pkl
 
 otus.99.allinfo
 sample_DRS000196_DRR000345_taxa.tsv
